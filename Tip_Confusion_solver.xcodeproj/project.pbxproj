@@ -14,6 +14,7 @@
 		3AFDF2901E76F15B00548178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFDF28E1E76F15B00548178 /* LaunchScreen.storyboard */; };
 		3AFDF29B1E76F15B00548178 /* Tip_Confusion_solverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF29A1E76F15B00548178 /* Tip_Confusion_solverTests.swift */; };
 		3AFDF2A61E76F15B00548178 /* Tip_Confusion_solverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF2A51E76F15B00548178 /* Tip_Confusion_solverUITests.swift */; };
+		3AFDF2B41E77082900548178 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF2B31E77082900548178 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3AFDF2A11E76F15B00548178 /* Tip_Confusion_solverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_Confusion_solverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFDF2A51E76F15B00548178 /* Tip_Confusion_solverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_Confusion_solverUITests.swift; sourceTree = "<group>"; };
 		3AFDF2A71E76F15B00548178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFDF2B31E77082900548178 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3AFDF2791E76F15B00548178 = {
 			isa = PBXGroup;
 			children = (
+				3AFDF2B31E77082900548178 /* SettingsViewController.swift */,
 				3AFDF2841E76F15B00548178 /* Tip_Confusion_solver */,
 				3AFDF2991E76F15B00548178 /* Tip_Confusion_solverTests */,
 				3AFDF2A41E76F15B00548178 /* Tip_Confusion_solverUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				3AFDF2881E76F15B00548178 /* ViewController.swift in Sources */,
 				3AFDF2861E76F15B00548178 /* AppDelegate.swift in Sources */,
+				3AFDF2B41E77082900548178 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
